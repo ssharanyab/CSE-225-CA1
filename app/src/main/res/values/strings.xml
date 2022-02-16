@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CSE 225 CA1 Sharanya</string>
+    <string name="rate_my_application">Rate My App</string>
+    <string name="text_in_scroll">Inside Scroll View:</string>
 </resources>

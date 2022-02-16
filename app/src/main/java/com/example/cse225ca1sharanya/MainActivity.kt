@@ -9,10 +9,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        supportActionBar?.hide()
         Handler().postDelayed({
         val intent = Intent(this@MainActivity,Homepage::class.java)
             startActivity(intent)
-        },3000)
+            finish()
+        },4000)
     }
 }
