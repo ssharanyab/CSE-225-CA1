@@ -11,8 +11,8 @@
         android:theme="@style/Theme.CSE225CA1Sharanya" >
         <activity
             android:name=".Homepage"
-            android:label="Home"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Home" />
         <activity
             android:name=".MainActivity"
             android:exported="true" >

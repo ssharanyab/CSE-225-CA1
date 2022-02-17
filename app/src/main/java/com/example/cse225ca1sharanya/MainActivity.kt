@@ -1,11 +1,13 @@
 package com.example.cse225ca1sharanya
 
 import android.content.Intent
+import android.content.IntentFilter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -14,5 +16,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         },4000)
+
     }
+
+
 }
